@@ -1,0 +1,10 @@
+pdf_document:
+  citation_package: natbib
+  fig_caption: yes
+  latex_engine: pdflatex
+  number_sections: yes
+  template: template.tex
+  toc: no
+  toc_depth: 4
+  includes:
+    in_header: header.tex
