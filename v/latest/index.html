@@ -8,7 +8,7 @@
   <meta name="author" content="Tiago Lubiana Alves" />
   <meta name="dcterms.date" content="2020-08-31" />
   <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Analysing the extent of biological information present in Wikidata</title>
+  <title>Analysing the extent of cell type information present in Wikidata</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,10 +25,10 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Analysing the extent of biological information present in Wikidata" />
-  <meta name="citation_title" content="Analysing the extent of biological information present in Wikidata" />
-  <meta property="og:title" content="Analysing the extent of biological information present in Wikidata" />
-  <meta property="twitter:title" content="Analysing the extent of biological information present in Wikidata" />
+  <meta name="dc.title" content="Analysing the extent of cell type information present in Wikidata" />
+  <meta name="citation_title" content="Analysing the extent of cell type information present in Wikidata" />
+  <meta property="og:title" content="Analysing the extent of cell type information present in Wikidata" />
+  <meta property="twitter:title" content="Analysing the extent of cell type information present in Wikidata" />
   <meta name="dc.date" content="2020-08-31" />
   <meta name="citation_publication_date" content="2020-08-31" />
   <meta name="dc.language" content="en-US" />
@@ -39,17 +39,19 @@
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="João Vitor Ferreira Cavalcante" />
   <meta name="citation_author_institution" content="Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte" />
+  <meta name="citation_author_orcid" content="0000-0001-7513-7376" />
   <meta name="citation_author" content="Tiago Lubiana Alves" />
   <meta name="citation_author_institution" content="Computational Systems Biology Laboratory, University of São Paulo" />
+  <meta name="citation_author_orcid" content="0000-0003-2473-2313" />
   <link rel="canonical" href="https://jvfe.github.io/manuscript_panglaodb/" />
   <meta property="og:url" content="https://jvfe.github.io/manuscript_panglaodb/" />
   <meta property="twitter:url" content="https://jvfe.github.io/manuscript_panglaodb/" />
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/manuscript_panglaodb/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/manuscript_panglaodb/v/d0f09d91c5bbd13c28949db161df104951639f93/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/d0f09d91c5bbd13c28949db161df104951639f93/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/d0f09d91c5bbd13c28949db161df104951639f93/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,24 +61,28 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Analysing the extent of biological information present in Wikidata</h1>
+<h1 class="title">Analysing the extent of cell type information present in Wikidata</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/manuscript_panglaodb/v/d0f09d91c5bbd13c28949db161df104951639f93/">permalink</a>)
+(<a href="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/manuscript_panglaodb/tree/d0f09d91c5bbd13c28949db161df104951639f93">jvfe/manuscript_panglaodb@d0f09d9</a>
+from <a href="https://github.com/jvfe/manuscript_panglaodb/tree/e9e294b629e94d0989c06a0c1659f499d3c1690e">jvfe/manuscript_panglaodb@e9e294b</a>
 on August 31, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>João Vitor Ferreira Cavalcante</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0001-7513-7376">0000-0001-7513-7376</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
 <a href="https://github.com/jvfe">jvfe</a><br>
 <small>
 Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte
 </small></p></li>
 <li><p><strong>Tiago Lubiana Alves</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0003-2473-2313">0000-0003-2473-2313</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
 <a href="https://github.com/lubianat">lubianat</a><br>
 <small>
@@ -85,13 +91,15 @@ Computational Systems Biology Laboratory, University of São Paulo
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Nec tamen ille erat sapiens quis enim hoc aut quando aut ubi aut unde? Duo Reges: constructio interrete. Non pugnem cum homine, cur tantum habeat in natura boni; Gloriosa ostentatio in constituendo summo bono. Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus. Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Quae animi affectio suum cuique tribuens atque hanc, quam dico. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis? Qui si ea, quae dicit, ita sentiret, ut verba significant, quid inter eum et vel Pyrrhonem vel Aristonem interesset?</p>
-<p>*<strong>Keywords</strong>: Wikidata, Knowledge graph, Single-cell, ontology.</p>
+<p><strong>Keywords</strong>: wikidata, knowledge graph, cell type, ontology.</p>
 <h2 id="introduction">Introduction</h2>
 <h3 id="wikidata">Wikidata</h3>
-<p><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> is an open, freely editable, knowledge graph database within the Semantic web that stores knowledge across a multitude of domains,
+<p><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> is an open, freely editable, knowledge graph database within the <a href="https://www.w3.org/standards/semanticweb/">semantic web</a> that stores knowledge across a multitude of domains,
 such as arts, history, chemistry and biology, using an item-property-value linked data model. It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available
-in common programming languages such as R and Python. All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies. Several advances towards biological data integration and biological data analysis in Wikidata have been made before, showing positive
-results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" role="doc-biblioref">1</a>]</span> <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">2</a>]</span>. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, almost none have a “Cell Ontology ID”<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">3</a>]</span>, and most have a varying amount of statements (Table <a href="#tbl:cell-counts">1</a>).</p>
+in common programming languages such as R and Python. All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies.</p>
+<p><strong>Put figure here illustrating the wikidata data model</strong></p>
+<p>Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
+results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" role="doc-biblioref">1</a>]</span> <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">2</a>]</span> and showcasing it’s potential for bioinformatics-related analyses, such as drug repurposing and ID conversion <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">2</a>]</span>. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties <span class="citation" data-cites="11iU76eUa">[<a href="#ref-11iU76eUa" role="doc-biblioref">3</a>]</span>. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, only nine have a “Cell Ontology ID” (P7963)<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">4</a>]</span> associated, and most have a varying amount of statements (Table <a href="#tbl:cell-counts">1</a>).</p>
 <div id="tbl:cell-counts" class="tablenos">
 <table>
 <caption><span>Table 1:</span> As of August 2020, Wikidata items regarding cell types have a varying amount of information, with most having very few statements.
@@ -119,11 +127,10 @@ results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" ro
 </table>
 </div>
 <h3 id="panglaodb">PanglaoDB</h3>
-<p><a href="https://panglaodb.se/index.html">PanglaoDB</a> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">4</a>]</span> is a public database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Table <a href="#tbl:panglao">2</a>). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Nec tamen ille erat sapiens quis enim hoc aut quando aut ubi aut unde? Duo Reges: constructio interrete. Non pugnem cum homine, cur tantum habeat in natura boni; Gloriosa ostentatio in constituendo summo bono. Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus. Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Quae animi affectio suum cuique tribuens atque hanc, quam dico. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis? Qui si ea, quae dicit, ita sentiret, ut verba significant, quid inter eum et vel Pyrrhonem vel Aristonem interesset?</p>
+<p><a href="https://panglaodb.se/index.html">PanglaoDB</a> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">5</a>]</span> is a public database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Table <a href="#tbl:panglao">2</a>). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.</p>
 <div id="tbl:panglao" class="tablenos">
 <table>
-<caption><span>Table 2:</span> Database statistics for PanglaoDB, as of 31st August 2020.
+<caption><span>Table 2:</span> Database statistics for each species in PanglaoDB, as of 31st August 2020.
 </caption>
 <thead>
 <tr class="header">
@@ -156,6 +163,17 @@ results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" ro
 </tbody>
 </table>
 </div>
+<h2 id="objectives">Objectives</h2>
+<p>Outline geral, apenas para me lembrar:</p>
+<ul>
+<li><p>Quantos tipos celulares são descritos na base? Quantos tem, no dia da análise, matches exatos?</p></li>
+<li><p>Os que tem matches exatos verbalmente, os matches tão minimamente bem anotados (Cell Ontology ID + instance_of: cell type)</p></li>
+<li><p>Os genes, espécies e orgãos tem cobertura no Wikidata?</p></li>
+<li><p>Os aliases de genes tem cobertura no Wikidata?</p></li>
+</ul>
+<p>Como categorizar cobertura? Match=True na reconciliação? Cutoff de score da reconciliação?</p>
+<p>Como verificar os aliases de genes?
+- Pegar o altlabel <a href="https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Extensions">pela interface de serviço</a></p>
 <h2 id="methodology">Methodology</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2 class="page_break_before" id="references">References</h2>
@@ -173,14 +191,20 @@ Andra Waagmeester, Gregory Stupp, Sebastian Burgstaller-Muehlbacher, Benjamin M 
 <em>eLife</em> (2020-03-17) <a href="https://doi.org/ggqqc6">https://doi.org/ggqqc6</a> <br />
 DOI: <a href="https://doi.org/10.7554/elife.52614">10.7554/elife.52614</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32180547">32180547</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7077981">PMC7077981</a></p>
 </div>
+<div id="ref-11iU76eUa">
+<p>3. <strong>Wikidata: A large-scale collaborative ontological medical database</strong> <br />
+Houcemeddine Turki, Thomas Shafee, Mohamed Ali Hadj Taieb, Mohamed Ben Aouicha, Denny Vrandečić, Diptanshu Das, Helmi Hamdi<br />
+<em>Journal of Biomedical Informatics</em> (2019-11) <a href="https://doi.org/gg9dnt">https://doi.org/gg9dnt</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.jbi.2019.103292">10.1016/j.jbi.2019.103292</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31557529">31557529</a></p>
+</div>
 <div id="ref-Z3nPSmXs">
-<p>3. <strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability.</strong> <br />
+<p>4. <strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability.</strong> <br />
 Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall<br />
 <em>Journal of biomedical semantics</em> (2016-07-04) <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">https://www.ncbi.nlm.nih.gov/pubmed/27377652</a> <br />
 DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></p>
 </div>
 <div id="ref-T3PlZ3Vh">
-<p>4. <strong>PanglaoDB: a web server for exploration of mouse and human single-cell RNA sequencing data</strong> <br />
+<p>5. <strong>PanglaoDB: a web server for exploration of mouse and human single-cell RNA sequencing data</strong> <br />
 Oscar Franzén, Li-Ming Gan, Johan LM Björkegren<br />
 <em>Database</em> (2019) <a href="https://doi.org/ggkzxr">https://doi.org/ggkzxr</a> <br />
 DOI: <a href="https://doi.org/10.1093/database/baz046">10.1093/database/baz046</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30951143">30951143</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6450036">PMC6450036</a></p>
