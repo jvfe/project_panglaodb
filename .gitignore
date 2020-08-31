@@ -1,39 +1,43 @@
-# History files
-.Rhistory
-.Rapp.history
+# Generated manuscript output files
+output/*
+!output/README.md
 
-# Session Data files
-.RData
+webpage/v
 
-# User-specific files
-.Ruserdata
+# When PDF building fails, a temporary symlink named images in the root
+# directory is not removed.
+/images
 
-# Example code in package build process
-*-Ex.R
+# Manubot cache directory
+ci/cache
 
-# Output files from R CMD build
-/*.tar.gz
+# Pandoc filters downloaded during continuous integration setup
+build/pandoc/filters/spellcheck.lua
 
-# Output files from R CMD check
-/*.Rcheck/
+# Python
+__pycache__/
+*.pyc
 
-# RStudio files
-.Rproj.user/
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# Misc temporary files
+*.bak
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# System specific files
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+## Linux
+*~
+.Trash-*
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+## macOS
+.DS_Store
+._*
+.Trashes
 
-# R Environment Variables
-.Renviron
+## Windows
+Thumbs.db
+[Dd]esktop.ini
+
+## Text Editors
+.vscode
