@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="João Vitor Ferreira Cavalcante" />
   <meta name="author" content="Tiago Lubiana Alves" />
-  <meta name="dcterms.date" content="2020-08-31" />
+  <meta name="dcterms.date" content="2020-09-01" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Analysing the extent of cell type information present in Wikidata</title>
   <style>
@@ -29,8 +29,8 @@
   <meta name="citation_title" content="Analysing the extent of cell type information present in Wikidata" />
   <meta property="og:title" content="Analysing the extent of cell type information present in Wikidata" />
   <meta property="twitter:title" content="Analysing the extent of cell type information present in Wikidata" />
-  <meta name="dc.date" content="2020-08-31" />
-  <meta name="citation_publication_date" content="2020-08-31" />
+  <meta name="dc.date" content="2020-09-01" />
+  <meta name="citation_publication_date" content="2020-09-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -49,9 +49,9 @@
   <meta name="citation_fulltext_html_url" content="https://jvfe.github.io/manuscript_panglaodb/" />
   <meta name="citation_pdf_url" content="https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/" />
-  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/" />
+  <meta name="manubot_html_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jvfe.github.io/manuscript_panglaodb/v/e9e294b629e94d0989c06a0c1659f499d3c1690e/">permalink</a>)
+(<a href="https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jvfe/manuscript_panglaodb/tree/e9e294b629e94d0989c06a0c1659f499d3c1690e">jvfe/manuscript_panglaodb@e9e294b</a>
-on August 31, 2020.
+from <a href="https://github.com/jvfe/manuscript_panglaodb/tree/4cc59942701384ff4bd730659d74a024907425e7">jvfe/manuscript_panglaodb@4cc5994</a>
+on September 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -95,9 +95,13 @@ Computational Systems Biology Laboratory, University of São Paulo
 <h2 id="introduction">Introduction</h2>
 <h3 id="wikidata">Wikidata</h3>
 <p><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> is an open, freely editable, knowledge graph database within the <a href="https://www.w3.org/standards/semanticweb/">semantic web</a> that stores knowledge across a multitude of domains,
-such as arts, history, chemistry and biology, using an item-property-value linked data model. It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available
+such as arts, history, chemistry and biology, using an item-property-value linked data model (Figure <a href="#fig:wdt-hep">1</a>). It is easy to use and edit, by both humans and machines, with a rich web user interface and wrapper packages available
 in common programming languages such as R and Python. All the data within Wikidata is linked and inherently public domain, thus, it presents a great opportunity to make scientific data more FAIR (Findable, accessible, interoperable and reusable), as well as provides the necessary tools to curate and develop ontologies.</p>
-<p><strong>Put figure here illustrating the wikidata data model</strong></p>
+<div id="fig:wdt-hep" class="fignos">
+<figure>
+<img src="images/wdt_hepatocyte.png" alt="" /><figcaption><span>Figure 1:</span> Wikidata item example, showing item hepatocyte (Q827450), the labels change according to the user’s language, but each item has a universal identifier, called QID.</figcaption>
+</figure>
+</div>
 <p>Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
 results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" role="doc-biblioref">1</a>]</span> <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">2</a>]</span> and showcasing it’s potential for bioinformatics-related analyses, such as drug repurposing and ID conversion <span class="citation" data-cites="HUodcdz1">[<a href="#ref-HUodcdz1" role="doc-biblioref">2</a>]</span>. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties <span class="citation" data-cites="11iU76eUa">[<a href="#ref-11iU76eUa" role="doc-biblioref">3</a>]</span>. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, only nine have a “Cell Ontology ID” (P7963)<span class="citation" data-cites="Z3nPSmXs">[<a href="#ref-Z3nPSmXs" role="doc-biblioref">4</a>]</span> associated, and most have a varying amount of statements (Table <a href="#tbl:cell-counts">1</a>).</p>
 <div id="tbl:cell-counts" class="tablenos">
@@ -164,18 +168,23 @@ results <span class="citation" data-cites="lmhCFXiz">[<a href="#ref-lmhCFXiz" ro
 </table>
 </div>
 <h2 id="objectives">Objectives</h2>
-<p>Outline geral, apenas para me lembrar:</p>
+<p>In this study, we aim to answer questions regarding the integration of biological data from PanglaoDB in Wikidata, analysing items such as cell types, genes and tissues. Some of the questions we gathered so far are:</p>
 <ul>
-<li><p>Quantos tipos celulares são descritos na base? Quantos tem, no dia da análise, matches exatos?</p></li>
-<li><p>Os que tem matches exatos verbalmente, os matches tão minimamente bem anotados (Cell Ontology ID + instance_of: cell type)</p></li>
-<li><p>Os genes, espécies e orgãos tem cobertura no Wikidata?</p></li>
-<li><p>Os aliases de genes tem cobertura no Wikidata?</p></li>
+<li><p>How many cell types in PanglaoDB are also present in Wikidata? How many of those items are exact matches?</p></li>
+<li><p>Of those that are exact matches, how many statements do they have associated? Are these items well annotated?</p></li>
+<li><p>How does the coverage of biological items differ within Wikidata? Are the items for tissues and genes better annotated? How so?</p>
+<ul>
+<li>Do items with alternative identifiers, such as genes, have their alternative identifiers indexed within Wikidata?</li>
+</ul></li>
 </ul>
+<p>In the end, we’ll have gathered and analysed enough data to formulate a report on the integration of this knowledge.</p>
+<h2 id="methodology">Methodology</h2>
+<h3 id="data-acquisition">Data acquisition</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3 id="reconciliation">Reconciliation</h3>
 <p>Como categorizar cobertura? Match=True na reconciliação? Cutoff de score da reconciliação?</p>
 <p>Como verificar os aliases de genes?
 - Pegar o altlabel <a href="https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Extensions">pela interface de serviço</a></p>
-<h2 id="methodology">Methodology</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
