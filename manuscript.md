@@ -5,7 +5,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-01'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"dc.date\" content=\"2020-09-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana Alves\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB\" />\n<meta name=\"dc.date\" content=\"2020-09-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana Alves\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/manuscript_panglaodb/v/77902ade808d5da3bcdab19d41a0a3c560822a72/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/77902ade808d5da3bcdab19d41a0a3c560822a72/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/77902ade808d5da3bcdab19d41a0a3c560822a72/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -15,7 +15,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Analysing the extent of cell type information present in Wikidata
+title: 'Analysing the extent of cell type information present in Wikidata: A case study on PanglaoDB'
 ...
 
 
@@ -25,9 +25,9 @@ title: Analysing the extent of cell type information present in Wikidata
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/))
+([permalink](https://jvfe.github.io/manuscript_panglaodb/v/77902ade808d5da3bcdab19d41a0a3c560822a72/))
 was automatically generated
-from [jvfe/manuscript_panglaodb@d9ebc38](https://github.com/jvfe/manuscript_panglaodb/tree/d9ebc38de79d7926125b9a30ad4b7480b4be9367)
+from [jvfe/manuscript_panglaodb@77902ad](https://github.com/jvfe/manuscript_panglaodb/tree/77902ade808d5da3bcdab19d41a0a3c560822a72)
 on September 1, 2020.
 </em></small>
 
@@ -57,7 +57,10 @@ on September 1, 2020.
 
 ## Abstract {.page_break_before}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Nec tamen ille erat sapiens quis enim hoc aut quando aut ubi aut unde? Duo Reges: constructio interrete. Non pugnem cum homine, cur tantum habeat in natura boni; Gloriosa ostentatio in constituendo summo bono. Me igitur ipsum ames oportet, non mea, si veri amici futuri sumus. Cur ipse Pythagoras et Aegyptum lustravit et Persarum magos adiit? Quae animi affectio suum cuique tribuens atque hanc, quam dico. Quis est autem dignus nomine hominis, qui unum diem totum velit esse in genere isto voluptatis? Qui si ea, quae dicit, ita sentiret, ut verba significant, quid inter eum et vel Pyrrhonem vel Aristonem interesset?
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), a freely editable knowledge graph database, presents a great opportunity for the integration of biomedical knowledge, it's well thought
+linked data model can improve significantly the handling and distribution of scientific information. On the other hand, Wikidata is still lacking
+in various aspects, in particular to what pertains to cell type information. This study aims to analyse how cell type knowledge is currently modelled 
+in Wikidata and how it differs from other type of biological information, using, as a reference point, metadata from the well known single cell RNA sequencing database, [PanglaoDB](https://panglaodb.se/index.html).
 
 **Keywords**: wikidata, knowledge graph, cell type, ontology.
 
@@ -75,7 +78,7 @@ Wikidata item example, showing item hepatocyte (Q827450), the labels change acco
 ](images/wdt_hepatocyte.png){#fig:wdt-hep}
 
 Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
-results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292]. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts).
+results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292]. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as "instances of cell types (Q189118)" (<https://w.wiki/b2w>), of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts). As an additional problem, there are also 23 items being categorized as "instances of cell (Q7868)" (<https://w.wiki/b2x>), illustrating the absence of any formal data model.
 
 | Cell type Item | Number of statements |
 |:-------------:|:---------------:|
@@ -88,7 +91,7 @@ Table: As of August 2020, Wikidata items regarding cell types have a varying amo
 
 ### PanglaoDB
 
-[PanglaoDB](https://panglaodb.se/index.html) [@doi:10.1093/database/baz046] is a public database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Table @tbl:panglao). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
+[PanglaoDB](https://panglaodb.se/index.html) [@doi:10.1093/database/baz046] is a public database that contains data and metadata on hundreds of single-cell RNA sequencing experiments, providing extensive information on cell types, genes and tissues, as well as manually and community curated cell type markers (Tables @tbl:panglao and @tbl:panglao2). It also provides a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
 
 |	|Mus musculus 	| Homo sapiens|
 |:--:|:-------------:|:---------------:|
@@ -96,8 +99,18 @@ Table: As of August 2020, Wikidata items regarding cell types have a varying amo
 |Tissues |	184  |74 |
 |Cells 	| 4,459,768 | 1,126,580 |
 |Cell Clusters| 8,651 | 1,748 |
-Table: Database statistics for each species in PanglaoDB, as of 31st August 2020.
+Table: Database statistics for each species in PanglaoDB, as of 31st of August, 2020.
 {#tbl:panglao}
+
+|        |  Number |
+|:----------:|:-------:|
+| Cell types |	215 (uniquely named)   | 
+|  Tissues   |	 240 (+6 germ layers)   |
+|  Organs    | 29  | 
+|  Species   | 2 (Homo sapiens and Mus musculus)  |
+|  Genes     | 110292 |
+Table: Metadata statistics for PanglaoDB, gathered from their [last update on August, 2019](https://github.com/oscar-franzen/PanglaoDB/tree/master/data).
+{#tbl:panglao2}
 
 
 
@@ -126,13 +139,13 @@ such as [WikidataIntegrator](https://pypi.org/project/wikidataintegrator/) and [
 
 Data from PanglaoDB will be acquired through their [web interface](https://panglaodb.se/index.html) and [metadata database dump repository](https://github.com/oscar-franzen/PanglaoDB).
 
-All data used will be handled with commonly used Python data science packages, such as Pandas[@doi:10.5281/zenodo.3630805], Seaborn[@doi:10.5281/zenodo.12710] and Jupyter[@doi:10.1109/MCSE.2007.53].
+All data used will be handled with commonly used Python data science packages, such as Pandas[@doi:10.5281/zenodo.3630805], Seaborn[@doi:10.5281/zenodo.3767070] and Jupyter[@doi:10.1109/MCSE.2007.53].
 
 ### Reconciliation
 
-The data from PanglaoDB will be matched to Wikidata items using the [reconciler](https://github.com/jvfe/reconciler) Python package, which is itself a wrapper around the well known [OpenRefine](https://openrefine.org/) 
+The metadata from PanglaoDB on cell types, genes, tissues (including germ layers) and organs will be matched to Wikidata items using the [reconciler](https://pypi.org/project/reconciler/) Python package, which is itself a wrapper around the well known [OpenRefine](https://openrefine.org/) 
 reconciliation service, as well as manual intersections of both data sources. 
-Data from the reconciliation service will be considered a match if the service returns a value of "match" equals to "True" or if the actual labels are semantically similar, which can be assessed either manually or using automated sequence similarity approaches, such as Levenshtein distance and word2vec. 
+Data from the reconciliation service will be considered a match if the service returns a value of "match" equals to "True". 
 
 ### Item quality assessment
 
