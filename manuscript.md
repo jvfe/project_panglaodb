@@ -5,7 +5,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-01'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"dc.date\" content=\"2020-09-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana Alves\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"citation_title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"og:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta property=\"twitter:title\" content=\"Analysing the extent of cell type information present in Wikidata\" />\n<meta name=\"dc.date\" content=\"2020-09-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jo\xE3o Vitor Ferreira Cavalcante\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Multidisciplinary Environment, Federal University of Rio Grande do Norte\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7513-7376\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana Alves\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<link rel=\"canonical\" href=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"og:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta property=\"twitter:url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/\" />\n<meta name=\"citation_pdf_url\" content=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://jvfe.github.io/manuscript_panglaodb/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -25,9 +25,9 @@ title: Analysing the extent of cell type information present in Wikidata
 
 <small><em>
 This manuscript
-([permalink](https://jvfe.github.io/manuscript_panglaodb/v/4cc59942701384ff4bd730659d74a024907425e7/))
+([permalink](https://jvfe.github.io/manuscript_panglaodb/v/d9ebc38de79d7926125b9a30ad4b7480b4be9367/))
 was automatically generated
-from [jvfe/manuscript_panglaodb@4cc5994](https://github.com/jvfe/manuscript_panglaodb/tree/4cc59942701384ff4bd730659d74a024907425e7)
+from [jvfe/manuscript_panglaodb@d9ebc38](https://github.com/jvfe/manuscript_panglaodb/tree/d9ebc38de79d7926125b9a30ad4b7480b4be9367)
 on September 1, 2020.
 </em></small>
 
@@ -75,7 +75,7 @@ Wikidata item example, showing item hepatocyte (Q827450), the labels change acco
 ](images/wdt_hepatocyte.png){#fig:wdt-hep}
 
 Several advances towards biological data integration and biological data analysis in Wikidata have been made before, yielding positive
-results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292]. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, only nine have a "Cell Ontology ID" (P7963)[@pmid:27377652] associated, and most have a varying amount of statements (Table @tbl:cell-counts).
+results [@doi:10.1101/031971] [@doi:10.7554/eLife.52614] and showcasing it's potential for bioinformatics-related analyses, such as drug repurposing and ID conversion [@doi:10.7554/eLife.52614]. Wikidata has been proposed as a unified base to gather and distribute biomedical knowledge, with more than 50 000 human gene items indexed and hundreds of biomedical-related properties [@doi:10.1016/j.jbi.2019.103292]. However, as of August 2020, cell type information is still very scarse, with only 264 items being categorized as instances of cell types (Q189118), of those, only nine have a "Cell Ontology ID"[@pmid:27377652] (P7963) associated, and most have a varying amount of statements (Table @tbl:cell-counts).
 
 | Cell type Item | Number of statements |
 |:-------------:|:---------------:|
@@ -114,20 +114,34 @@ In this study, we aim to answer questions regarding the integration of biologica
     * Do items with alternative identifiers, such as genes, have their alternative identifiers indexed within Wikidata?
 
 In the end, we'll have gathered and analysed enough data to formulate a report on the integration of this knowledge. 
+We also intend to migrate the missing data, enriching Wikidata with more biological information.
 
 
 ## Methodology
 
 ### Data acquisition
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Data from Wikidata will be acquired using the [Wikidata Query Service](query.wikidata.org/) and associated wrapper packages in Python, 
+such as [WikidataIntegrator](https://pypi.org/project/wikidataintegrator/) and [wikidata2df](https://pypi.org/project/wikidata2df/).
+
+Data from PanglaoDB will be acquired through their [web interface](https://panglaodb.se/index.html) and [metadata database dump repository](https://github.com/oscar-franzen/PanglaoDB).
+
+All data used will be handled with commonly used Python data science packages, such as Pandas[@doi:10.5281/zenodo.3630805], Seaborn[@doi:10.5281/zenodo.12710] and Jupyter[@doi:10.1109/MCSE.2007.53].
 
 ### Reconciliation
 
-Como categorizar cobertura? Match=True na reconciliação? Cutoff de score da reconciliação? 
+The data from PanglaoDB will be matched to Wikidata items using the [reconciler](https://github.com/jvfe/reconciler) Python package, which is itself a wrapper around the well known [OpenRefine](https://openrefine.org/) 
+reconciliation service, as well as manual intersections of both data sources. 
+Data from the reconciliation service will be considered a match if the service returns a value of "match" equals to "True" or if the actual labels are semantically similar, which can be assessed either manually or using automated sequence similarity approaches, such as Levenshtein distance and word2vec. 
+
+### Item quality assessment
+
+Wikidata items will be assessed for their quality by their number of statements, which can be acquired via both the [MediaWiki API](https://www.mediawiki.org/wiki/API:REST_API) and Wikidata's own query service. And also by the presence of external identifiers, such as Ensembl Gene[@doi:10.1093/nar/gkz966] and Entrez Gene[@doi:10.1093/nar/gks1189] IDs for genes, Cell Ontology[@pmid:27377652] IDs for cell types and Uberon[@pmid:22293552] IDs for organs and tissues. 
+
+<!-- Como categorizar cobertura? Match=True na reconciliação? Cutoff de score da reconciliação? 
 
 Como verificar os aliases de genes? 
-    - Pegar o altlabel [pela interface de serviço](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Extensions)
+    - Pegar o altlabel [pela interface de serviço](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Extensions) -->
     
 
 ## References {.page_break_before}
