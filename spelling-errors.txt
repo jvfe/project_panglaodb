@@ -11,22 +11,19 @@ amemus
 ames
 amet
 amici
-análise
+analysed
+analysing
 anim
 animi
-anotados
-apenas
 Aristonem
 atque
 aut
 aute
 autem
-bem
 Bioinformatics
 boni
 categorizar
 Cavalcante
-celulares
 cillum
 cobertura
 commodo
@@ -37,9 +34,7 @@ constructio
 cuique
 culpa
 cupidatat
-descritos
 deserunt
-dia
 dicit
 dico
 dignus
@@ -49,10 +44,8 @@ eiusmod
 elit
 enim
 erat
-espécies
 esse
 eum
-exatos
 Excepteur
 exercitation
 Ferreira
@@ -60,7 +53,6 @@ Findable
 fugiat
 futuri
 genere
-geral
 Gloriosa
 Grande
 gratia
@@ -86,7 +78,6 @@ jvfe
 labore
 laboris
 laborum
-lembrar
 Lorem
 Lubiana
 lubianat
@@ -95,7 +86,6 @@ magna
 magos
 mea
 mesenchymal
-minimamente
 mollit
 musculus
 myocyte
@@ -110,7 +100,6 @@ occaecat
 officia
 ontologies
 oportet
-orgãos
 ostentatio
 panglao
 PanglaoDB
@@ -123,11 +112,11 @@ proident
 propter
 pugnem
 Pyrrhonem
-Quae
+QID
+quae
 quam
 quampiam
 quando
-Quantos
 Qui
 quidem
 quis
@@ -135,7 +124,7 @@ reconciliação
 Reges
 reprehenderit
 repurposing
-são
+São
 scarse
 sed
 sentiret
@@ -147,11 +136,8 @@ sunt
 suum
 tamen
 tantum
-tão
-tem
 tempor
 Tiago
-tipos
 totum
 tribuens
 ubi
@@ -162,7 +148,6 @@ vel
 velit
 veniam
 verba
-verbalmente
 verbi
 veri
 verificar
@@ -170,3 +155,4 @@ Vitor
 voluptate
 voluptatem
 voluptatis
+wdt
