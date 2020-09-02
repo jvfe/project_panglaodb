@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/jvfe/manuscript_panglaodb/tree/gh-pages) branch hosts the contents of this directory at <https://jvfe.github.io/manuscript_panglaodb/>.
-The permalink for this webpage version is <https://jvfe.github.io/manuscript_panglaodb/v/77902ade808d5da3bcdab19d41a0a3c560822a72/>.
+The permalink for this webpage version is <https://jvfe.github.io/manuscript_panglaodb/v/852b94af539006902c99b67889a82e22a9daef2b/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://jvfe.github.io/manuscript_panglaodb/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`77902ade808d5da3bcdab19d41a0a3c560822a72`](https://github.com/jvfe/manuscript_panglaodb/commit/77902ade808d5da3bcdab19d41a0a3c560822a72).
+[`852b94af539006902c99b67889a82e22a9daef2b`](https://github.com/jvfe/manuscript_panglaodb/commit/852b94af539006902c99b67889a82e22a9daef2b).
