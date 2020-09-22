@@ -1,7 +1,7 @@
 analyse
 analysed
 analysing
-bioinformatics
+Bioinformatics
 Cavalcante
 df
 Ensembl
